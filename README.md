@@ -12,7 +12,7 @@ Zeedex is designed for developers looking to build decentralized exchanges witho
 
 ## Features
 
-Zeedex 1.0 contains a single exchange contract called `ZeedexExchange.sol` with the following attributes:
+Zeedex 0.1 contains a single exchange contract called `ZeedexExchange.sol` with the following attributes:
 
 * No order collision
 * No possibility of front-running
@@ -21,7 +21,6 @@ Zeedex 1.0 contains a single exchange contract called `ZeedexExchange.sol` with 
 * Allows asymmetrical maker/taker fee structure, rebates, discounts
 * Multiple settlement models:
   * Wallet to wallet mode
-  * Contract-deposit mode (supports ETH)
 * Highly optimized gas usage
 
 ## Installation
